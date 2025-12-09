@@ -1,0 +1,74 @@
+Traffic Safety: Analyzing Crash Inequality
+Across Chicago Neighborhoods
+Team Members
+Name: Shubam Khantwal
+Background: Master’s student in Computer Science at Virginia Tech with professional
+experience in software development and data analytics. Experienced in applying machine
+learning techniques, backend development, and data analysis to real-world problems.
+Particularly interested in leveraging network science and predictive modeling to address urban
+safety and transportation challenges.
+Department: Computer Science
+Name: Siddarth Bandi
+Background: Master’s student in Computer Science at Virginia Tech with a strong academic
+foundation and practical experience in software development, data analysis, and emerging
+technologies. Coursework and projects span machine learning, AI, and systems development.
+Experienced in working with large datasets and building end-to-end analytical pipelines, with a
+focus on applying computational techniques to urban and real-world problems.
+Department: Computer Science
+Name: Venkata Sai Yaswanth Madiraju
+Background: Master’s student in Computer Science at Virginia Tech with a solid grounding in
+computing concepts, software development, and data-driven problem solving. Academic
+experience emphasizes applying theoretical knowledge through practical projects in emerging
+technologies and computational methods. Interested in using analytical tools and machine
+learning to derive actionable insights from complex urban datasets.
+Department: Computer Science
+Even though our team is made up of computer scientists, we are effectively bringing in the
+urban/transportation vertical by leveraging domain-specific data and methods. Our project
+doesn’t stay in the abstract, it directly engages with urban planning questions using real
+transportation datasets.
+Description of the Project
+Topic
+This project aims to analyze urban road safety in Chicago by identifying crash inequalities
+across neighborhoods and intersections, with a focus on detecting evolving crash hotspots.
+Traffic crashes remain a critical public safety issue, but they are not evenly distributed: certain
+intersections and corridors are disproportionately affected. Understanding these inequalities and
+predicting future crash-prone areas can help policymakers design safer streets and prioritize
+infrastructure improvements.
+What We Plan to Do:
+Conduct descriptive analysis of Chicago crash data to identify neighborhoods
+with high crash counts and severity.
+Planned Steps
+● Data Collection and Integration: Use Chicago Traffic Crashes datasets (Crashes +
+People tables) from the City of Chicago Open Data Portal. Supplement with
+OpenStreetMap for road networks and Census data for neighborhood boundaries.
+● Data Preprocessing: Clean and merge crash records with location data, map crashes
+to intersections/neighborhoods, and handle missing or inconsistent fields.
+● Exploratory Data Analysis: Identify crash frequency trends across time,
+neighborhoods, and intersections using descriptive statistics and visualizations.
+● Network Construction: Build a road intersection network where nodes represent
+intersections and edges represent connecting streets, weighted by crash counts.
+● Network Science Analysis: Compute centrality measures (degree, betweenness,
+closeness) to identify high-risk intersections and vulnerable corridors.
+● Machine Learning Prediction: Train classification models (Logistic Regression,
+Random Forest, Gradient Boosting) to predict which intersections will become future
+hotspots, using temporal crash data, road attributes, and network features.
+● Visualization: Create heatmaps and choropleth maps to highlight current and predicted
+crash hotspots across the city.
+Prior Research
+Prior studies show that traffic crashes cluster in high-traffic corridors and are more frequent in
+disadvantaged neighborhoods. Machine learning models have been applied to predict crash
+severity and identify high-risk intersections, while spatial statistics (e.g., Moran’s I, LISA) have
+been used to detect clustering. However, most analyses treat crashes as static - this project
+extends prior work by combining temporal hotspot evolution, network science, and machine
+learning to model how crash hotspots change over time.
+Datasets that We Plan to Use
+● Chicago Traffic Crashes – People: Records of people involved in crashes, including
+injury type, location, and severity.
+● Chicago Traffic Crashes – Crashes: Location, date, time, road conditions, and severity
+of crash events (used to map crashes to intersections).
+● OpenStreetMap (OSM): Road and intersection data for constructing the intersection
+network.
+● U.S. Census Bureau (ACS): Demographics (population, income, car ownership) to
+understand social inequalities in crash exposure.
+DATASET :
+https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d/about_data

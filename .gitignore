@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Data artifacts (keep data out of git)
+data/raw/
+data/processed/
+*.parquet
+*.csv
+*.zip
+*.graphml
+
+# IDE/editor
+.DS_Store
+.vscode/
+.idea/
+
