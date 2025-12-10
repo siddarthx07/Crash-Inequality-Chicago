@@ -34,6 +34,14 @@ def load_acs() -> pd.DataFrame:
             "B17021_001E": "acs_poverty_universe",
         }
     )
+    # Coerce to numeric then clean placeholders/suppressed values
+    for col in ["acs_pop", "acs_median_income", "acs_households_with_vehicle", "acs_poverty_universe"]:
+        acs[col] = pd.to_numeric(acs[col], errors="coerce")
+    acs.loc[acs["acs_pop"] <= 0, "acs_pop"] = pd.NA
+    acs.loc[acs["acs_median_income"] <= 0, "acs_median_income"] = pd.NA
+    acs.loc[acs["acs_households_with_vehicle"] < 0, "acs_households_with_vehicle"] = pd.NA
+    acs.loc[acs["acs_poverty_universe"] < 0, "acs_poverty_universe"] = pd.NA
+
     # Derive simple rates using available fields (vehicle access per pop as proxy)
     acs["acs_vehicle_access_rate"] = acs["acs_households_with_vehicle"] / acs["acs_pop"].replace(0, pd.NA)
     return acs[

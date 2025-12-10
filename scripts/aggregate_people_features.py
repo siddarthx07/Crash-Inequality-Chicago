@@ -65,7 +65,17 @@ def main() -> None:
         feats["GEOID"] = feats["GEOID"].astype(str)
     feats = feats.merge(hist, on="intersection_id", how="left")
     feats = feats.merge(recent, on="intersection_id", how="left")
-    feats = feats.fillna(0)
+    people_cols = [
+        "hist_people_injuries_total",
+        "hist_people_injuries_fatal",
+        "hist_people_injuries_incapacitating",
+        "hist_people_injuries_nonincap",
+        "recent90_people_injuries_total",
+        "recent90_people_injuries_fatal",
+        "recent90_people_injuries_incapacitating",
+        "recent90_people_injuries_nonincap",
+    ]
+    feats[people_cols] = feats[people_cols].fillna(0)
 
     feats.to_parquet("data/processed/intersection_features_enriched.parquet", index=False)
     print(

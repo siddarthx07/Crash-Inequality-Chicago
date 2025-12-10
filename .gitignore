@@ -5,7 +5,7 @@ __pycache__/
 
 # Data artifacts (keep data out of git)
 data/raw/
-data/processed/
+
 *.parquet
 *.csv
 *.zip
@@ -15,4 +15,12 @@ data/processed/
 .DS_Store
 .vscode/
 .idea/
+
+# Markdown files except README
+*.md
+!README.md
+
+# Large result files (can be regenerated from notebooks)
+results/*.png
+results/*.pdf
 
