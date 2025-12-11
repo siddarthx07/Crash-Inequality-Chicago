@@ -1,0 +1,4 @@
+test,statistic,p_value,significant
+ANOVA (crash rate by income quartile),,,False
+Correlation (income vs crash rate),0.03181458781962952,0.7821545424014154,False
+T-test (Q1 vs Q4 crash rates),0.1689359124797616,0.8667431094714999,False

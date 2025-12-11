@@ -1,0 +1,2 @@
+model,split_type,pr_auc,roc_auc,best_f1,best_threshold,precision,recall,tn,fp,fn,tp
+GradientBoosting,temporal_chronological,0.7724488525048739,0.9460193687592136,0.6914505187283068,0.3771688256372182,0.6756556389583912,0.7080015536997475,71961,3500,3007,7291

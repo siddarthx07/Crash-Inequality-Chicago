@@ -1,0 +1,4 @@
+Split Type,Model,PR-AUC,ROC-AUC,F1@0.5,Best F1,Threshold
+Temporal (Chronological),GradientBoosting,0.769,0.947,0.667,0.686,0.366
+Temporal (Chronological),Logistic,0.762,0.945,0.591,0.684,0.806
+Temporal (Chronological),RandomForest,0.754,0.942,0.653,0.675,0.34

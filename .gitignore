@@ -20,7 +20,7 @@ data/raw/
 *.md
 !README.md
 
-# Large result files (can be regenerated from notebooks)
-results/*.png
-results/*.pdf
+# Results artifacts (keep in git)
+!results/
+!results/**
 

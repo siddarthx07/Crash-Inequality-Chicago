@@ -1,0 +1,6 @@
+Income Quartile,Communities,Crashes/1k Pop,Injuries/1k Pop,Severe Injury Rate,Median Income ($),Hotspot Density
+Missing/Unknown,0,,,,,
+Q1 (Lowest),20,423.925,782.49,0.018,38576.463,0.095
+Q2,19,269.193,476.786,0.015,56652.319,0.101
+Q3,19,236.451,396.857,0.011,75096.721,0.103
+Q4 (Highest),20,407.66,704.826,0.01,116002.432,0.13

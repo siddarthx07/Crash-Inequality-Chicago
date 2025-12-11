@@ -1,0 +1,11 @@
+Feature,Importance,Importance %,Cumulative %
+hist_crashes,0.9001399129787145,90.49,90.49
+recent90_crashes,0.0333788205742947,3.356,93.846
+hist_injuries_total,0.0236784036438231,2.38,96.226
+centrality_degree,0.0115917434591357,1.165,97.391
+centrality_betweenness,0.0082415719358082,0.829,98.22
+acs_households_with_vehicle,0.0065317037111368,0.657,98.877
+recent90_injuries_total,0.0039841779102103,0.401,99.278
+centrality_closeness,0.0033580553729923,0.338,99.616
+acs_vehicle_access_rate,0.0023089396253795,0.232,99.848
+acs_median_income,0.001522276013072,0.153,100.001

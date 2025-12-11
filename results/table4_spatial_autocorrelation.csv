@@ -1,0 +1,4 @@
+Variable,Moran's I,Z-Score,p-value,Significant,Interpretation
+Crash Counts,0.1605055706627276,46.36291892869831,0.0,True,Clustered***
+Hotspot Labels,0.1194510297179562,34.50793553834757,6.098745100321032e-261,True,Clustered***
+Injury Severity,0.1469330263635015,42.4436865239668,0.0,True,Clustered***

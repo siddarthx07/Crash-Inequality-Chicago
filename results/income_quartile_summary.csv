@@ -1,0 +1,6 @@
+income_quartile,num_communities,total_crashes,avg_crashes_per_1k_pop,avg_hotspot_density,avg_median_income,avg_vehicle_access_rate,avg_injuries_per_1k_pop,avg_severe_injury_rate
+Missing/Unknown,0,0,,,,,,
+Q1 (Lowest),20,24003,423.925,0.095,38576.463,0.148,782.49,0.018
+Q2,19,18910,269.193,0.101,56652.319,0.097,476.786,0.015
+Q3,19,19428,236.451,0.103,75096.721,0.076,396.857,0.011
+Q4 (Highest),20,33757,407.66,0.13,116002.432,0.093,704.826,0.01
