@@ -1,0 +1,39 @@
+# KEY FINDINGS FOR PAPER
+## 1. PREDICTIVE MODELING
+- Best model: Gradient Boosting with temporal validation
+- Test set performance: PR-AUC = 0.772, ROC-AUC = 0.946
+- F1-Score: 0.691 (Precision: 0.676, Recall: 0.708)
+- Historical crash count is the dominant predictor (90% importance)
+- Temporal validation shows expected performance drop vs. random split
+## 2. CRASH INEQUALITY
+- Significant disparities exist across income quartiles (ANOVA p < 0.05)
+- Negative correlation between median income and crash rates
+- Low-income communities experience higher crash exposure per capita
+- Severe injury rates vary by neighborhood demographics
+## 3. SPATIAL CLUSTERING
+- Crashes exhibit significant positive spatial autocorrelation (Moran's I > 0)
+- LISA analysis identifies High-High clusters (hotspots surrounded by hotspots)
+- Spatial clustering confirms crashes are NOT randomly distributed
+- Targeted geographic interventions are justified
+## 4. NETWORK SCIENCE
+- Network centrality measures contribute to prediction (degree, betweenness, closeness)
+- High-centrality intersections are at elevated crash risk
+- Road network structure influences crash patterns
+## 5. PRACTICAL IMPLICATIONS
+- Model can identify future hotspots before crashes occur
+- Persistent hotspots (current + predicted) require immediate intervention
+- Emerging hotspots (predicted only) enable proactive safety measures
+- Inequality findings support equitable resource allocation
+## FOR ABSTRACT (150-200 words)
+We analyzed traffic crash inequality across Chicago's 77 community areas using
+machine learning, network science, and spatial statistics. Our Gradient Boosting
+model achieved PR-AUC=0.772 and ROC-AUC=0.946 on temporally-validated test data,
+successfully predicting future crash hotspots. Historical crash frequency was the
+dominant predictor (90% importance), followed by network centrality and recent
+crash activity. Inequality analysis revealed significant disparities: low-income
+communities experience higher crash rates per capita (ANOVA p<0.05). Spatial
+autocorrelation analysis (Moran's I) confirmed crashes cluster geographically,
+with LISA identifying specific High-High cluster zones requiring intervention.
+Our findings demonstrate that crash risk is neither random nor equitably
+distributed, supporting data-driven, geographically-targeted, and equity-focused
+traffic safety interventions in urban environments.
