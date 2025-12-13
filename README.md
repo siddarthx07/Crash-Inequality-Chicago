@@ -154,7 +154,7 @@ Or use your preferred LaTeX editor (Overleaf, TeXShop, etc.)
 | Q1 (Lowest) | $38,576 | 423.9 | 1.8% |
 | Q4 (Highest) | $116,002 | 407.7 | 1.0% |
 
-**Disparity**: 48% higher severe injury rates in low-income communities
+**Disparity**: 80% higher severe injury rates in low-income communities
 
 ## Visualizations
 
