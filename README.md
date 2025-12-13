@@ -34,7 +34,7 @@ project/
 └── report/                        # Final research paper (LaTeX)
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ esda>=2.4.0
 libpysal>=4.5.0
 ```
 
-## 📥 Data Sources
+## Data Sources
 
 1. **Chicago Traffic Crashes**: [Chicago Data Portal](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/)
 2. **Chicago Community Areas**: [Boundaries Data](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas/)
@@ -133,7 +133,7 @@ pdflatex final_report.tex  # Run twice for references
 
 Or use your preferred LaTeX editor (Overleaf, TeXShop, etc.)
 
-## 📈 Key Results
+## Key Results
 
 ### Model Performance
 | Model | PR-AUC | ROC-AUC | F1-Score |
@@ -156,7 +156,7 @@ Or use your preferred LaTeX editor (Overleaf, TeXShop, etc.)
 
 **Disparity**: 48% higher severe injury rates in low-income communities
 
-## 🗺️ Visualizations
+## Visualizations
 
 The project generates multiple visualizations:
 - Temporal window diagrams
@@ -167,19 +167,18 @@ The project generates multiple visualizations:
 - Hotspot agreement maps
 - Community-level choropleth maps
 
-## 🎯 Policy Recommendations
+## Policy Recommendations
 
 1. **Immediate Priorities**: Deploy engineering improvements at 1,875 persistent hotspots
 2. **Proactive Measures**: Monitor 457 emerging hotspots with enforcement and temporary calming
 3. **Equity Focus**: Prioritize severe-injury reduction in low-income communities
 
-## 👥 Authors
+## Author
 
-- **Shubam Khantwal** - Data preprocessing, network analysis
-- **Siddarth Bandi** - Machine learning models, temporal validation
-- **Venkata Sai Yaswanth Madiraju** - Inequality analysis, spatial statistics
 
-## 📄 Citation
+- **Siddarth Bandi**
+
+## Citation
 
 If you use this work, please cite:
 
@@ -192,11 +191,11 @@ If you use this work, please cite:
 }
 ```
 
-## 📜 License
+## License
 
 This project is open source and available for academic and non-commercial use.
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - City of Chicago for providing open crash data
 - OpenStreetMap contributors for road network data
@@ -204,7 +203,7 @@ This project is open source and available for academic and non-commercial use.
 - Virginia Tech for computational resources
 - Professor Naren Ramakrishnan for guidance
 
-## 📧 Contact
+## Contact
 
 For questions or collaboration opportunities:
 - Siddarth Bandi: siddarth24@vt.edu
@@ -214,5 +213,5 @@ For questions or collaboration opportunities:
 
 **🔗 Project Repository**: [https://github.com/siddarthx07/chicago-crash-inequality](https://github.com/siddarthx07/chicago-crash-inequality)
 
-**📊 Full Report**: See `report/final_report.pdf`
+** Full Report**: See `report/final_report.pdf`
 
