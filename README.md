@@ -212,5 +212,4 @@ For questions or collaboration opportunities:
 
 **Project Repository**: [https://github.com/siddarthx07/Crash-Inequality-Chicago](https://github.com/siddarthx07/Crash-Inequality-Chicago)
 
-**Full Report**: See `report/final_report.pdf`
 
