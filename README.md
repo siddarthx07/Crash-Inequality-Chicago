@@ -2,7 +2,7 @@
 
 A comprehensive urban computing project analyzing traffic crash inequality across Chicago's 77 community areas using machine learning, network science, and spatial statistics.
 
-## 📊 Project Overview
+## Project Overview
 
 This project predicts future crash hotspots at 19,200 Chicago intersections using 1.0 million historical crash records (2013-2025) and analyzes socioeconomic disparities in crash exposure.
 
@@ -13,7 +13,7 @@ This project predicts future crash hotspots at 19,200 Chicago intersections usin
 - **Spatial Clustering**: Crashes exhibit significant positive autocorrelation (Moran's I = 0.161, p<0.001)
 - **Actionable Insights**: Identified 1,875 persistent hotspots and 457 emerging hotspots for intervention
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 project/
