@@ -9,7 +9,7 @@ This project predicts future crash hotspots at 19,200 Chicago intersections usin
 ### Key Findings
 
 - **Predictive Model**: Gradient Boosting achieved PR-AUC of 0.772 and ROC-AUC of 0.946
-- **Crash Inequality**: Low-income communities experience 48% higher severe injury rates (r=-0.488, p<0.001)
+- **Crash Inequality**: Low-income communities experience 80% higher severe injury rates (1.8% vs 1.0%)
 - **Spatial Clustering**: Crashes exhibit significant positive autocorrelation (Moran's I = 0.161, p<0.001)
 - **Actionable Insights**: Identified 1,875 persistent hotspots and 457 emerging hotspots for intervention
 
@@ -78,7 +78,7 @@ libpysal>=4.5.0
 3. **OpenStreetMap**: Downloaded via OSMnx Python library
 4. **U.S. Census ACS**: [Census Data](https://data.census.gov/)
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Data Preprocessing
 - Spatial matching of crashes to intersections (88% match rate)
@@ -103,9 +103,9 @@ All models use:
 ### 4. Inequality Analysis
 - Crash rates aggregated by community area and income quartile
 - Statistical testing: ANOVA, Pearson correlation, T-tests
-- 48% higher severe injury rates in low-income communities
+- 80% higher severe injury rates in low-income communities (1.8% vs 1.0%)
 
-## 📓 Running the Analysis
+## Running the Analysis
 
 ### Step 1: Data Preprocessing
 ```bash
@@ -175,8 +175,7 @@ The project generates multiple visualizations:
 
 ## Author
 
-
-- **Siddarth Bandi**
+**Siddarth Bandi**
 
 ## Citation
 
@@ -185,7 +184,7 @@ If you use this work, please cite:
 ```bibtex
 @article{chicago-crash-2025,
   title={Traffic Safety: Analyzing Crash Inequality Across Chicago Neighborhoods Using Machine Learning and Network Science},
-  author={Bandi, Siddarth and Khantwal, Shubam and Madiraju, Venkata Sai Yaswanth},
+  author={Bandi, Siddarth},
   year={2025},
   institution={Virginia Tech}
 }
@@ -211,7 +210,7 @@ For questions or collaboration opportunities:
 
 ---
 
-**🔗 Project Repository**: [https://github.com/siddarthx07/chicago-crash-inequality](https://github.com/siddarthx07/chicago-crash-inequality)
+**Project Repository**: [https://github.com/siddarthx07/Crash-Inequality-Chicago](https://github.com/siddarthx07/Crash-Inequality-Chicago)
 
-** Full Report**: See `report/final_report.pdf`
+**Full Report**: See `report/final_report.pdf`
 
